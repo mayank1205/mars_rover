@@ -3,10 +3,12 @@
 ## UI
 
 The UI folder contains Angular application for interacting with the Mars rover UI application.
+[UI Development Readme](https://github.com/mayank1205/mars_rover/tree/master/UI)
 
 ## API
 
 The API folder contains Node application which contains the APIs for the Mars rover application.
+[API Development Readme](https://github.com/mayank1205/mars_rover/tree/master/API)
 
 # Description
 
