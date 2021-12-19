@@ -155,7 +155,6 @@ const moveRover = (req, res) => {
   // Reading id from the URL
   const stringInput = req.body.input;
   const charArray = stringInput.split('');
-  console.log(charArray);
   charArray.forEach(element => {
     switch (element) {
       case 'F':

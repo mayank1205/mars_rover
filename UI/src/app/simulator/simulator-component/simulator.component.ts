@@ -59,7 +59,6 @@ export class SimulatorComponent {
 
   ngOnInit() {
     this.roverService.getRover().subscribe((res: any) => {
-      console.log(res);
       this.x = res.data.x;
       this.y = res.data.y;
       this.direction = res.data.direction;
@@ -73,7 +72,6 @@ export class SimulatorComponent {
       return;
     }
       this.roverService.moveRover(this.updateForm.value).subscribe((res: any) => {
-        console.log(res);
         this.x = res.data.x;
         this.y = res.data.y;
         this.direction = res.data.direction;
@@ -106,7 +104,6 @@ export class SimulatorComponent {
         y: this.y,
         direction: this.direction
       }).subscribe((res: any) => {
-        console.log(res);
         this.x = res.data.x;
         this.y = res.data.y;
         this.direction = res.data.direction;
